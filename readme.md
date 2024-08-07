@@ -35,3 +35,24 @@ To use vimrc on
  ```
 
  (The colorscheme will probably not be compatible with neovim)
+
+
+ ## Neovim (!!!WIP!!!)
+
+ For ease of use, Neovim will try to import the vimrc-config (~/.vimrc). Check out (Vim-section)[#Vim] aswell.
+
+ Copy-paste the nvim-folder (dotfiles/config/nvim) to the specified dir:
+
+  - MacOS/Linux/Unix: (~/.config/nvim)
+
+  ### Package-Manager
+ The Lazy-Package-Manager is being used to install a Theme aswell as the following plugins:
+
+  - [vscode.nvim](https://github.com/Mofiqul/vscode.nvim) - VSCode-like Dark+ Theme
+  - [Telescope](https://github.com/nvim-telescope/telescope.nvim) - Fuzzy Finder
+  - [Treesitter](https://github.com/nvim-treesitter/nvim-treesitter) - Advanced Syntax Highlighting
+  - [Comment.nvim](https://github.com/numToStr/Comment.nvim) - Easier Line Comments
+
+  #### Adding / Removing Plugins and Themes
+
+  Plugins / Themes can be added / removed under ~/.config/nvim/lua/plugins/ . Each plugin should be named <(pluginname).lua> and saved in the plugins-directory. 
