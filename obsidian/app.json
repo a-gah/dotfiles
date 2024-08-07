@@ -1,0 +1,9 @@
+{
+  "trashOption": "local",
+  "newFileLocation": "root",
+  "attachmentFolderPath": "./",
+  "alwaysUpdateLinks": true,
+  "showRibbon": true,
+  "showUnsupportedFiles": true,
+  "showInlineTitle": false
+}
